@@ -1,0 +1,22 @@
+{
+  "name": "imdb-crawling",
+  "version": "0.0.1",
+  "description": "IMDB crawling tool",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/app.js"
+  },
+  "keywords": [
+    "IMDB",
+    "crawling",
+    "mongodb"
+  ],
+  "author": "Jair de Souza Junior",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "mongoose": "^5.3.14"
+  }
+}

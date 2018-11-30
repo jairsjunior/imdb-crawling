@@ -1,0 +1,14 @@
+version: '3.5'
+
+services:
+  mongodb:
+    image: mongo:3.6.1
+    container_name: uv-mongodb
+    volumes:
+      - ./data/db:/data/db
+    ports:
+      - 27017:27017
+
+  imdb-crawling:
+    image: jairsjunior/imdb-crawling
+    build: .
